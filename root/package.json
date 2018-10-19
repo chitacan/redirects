@@ -1,0 +1,28 @@
+{
+  "name": "root",
+  "description": "chitacan.io => github.com/chitacan",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "KyungYeol Kim <chitacan@gmail.com>",
+  "scripts": {
+    "deploy": "now && now alias"
+  },
+  "now": {
+    "type": "static",
+    "alias": "chitacan.io",
+    "static": {
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "redirects": [
+        {
+          "source": "**",
+          "destination": "https://github.com/chitacan"
+        }
+      ]
+    }
+  }
+}
