@@ -1,6 +1,6 @@
 {
   "name": "observable",
-  "description": "observable.chitacan.io => beta.observablehq.com/@chitacan",
+  "description": "observable.chitacan.io => observablehq.com/@chitacan",
   "version": "1.0.0",
   "license": "MIT",
   "author": "KyungYeol Kim <chitacan@gmail.com>",
@@ -20,7 +20,7 @@
       "redirects": [
         {
           "source": "**",
-          "destination": "https://beta.observablehq.com/@chitacan"
+          "destination": "https://observablehq.com/@chitacan"
         }
       ]
     }
