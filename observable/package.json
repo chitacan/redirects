@@ -5,24 +5,6 @@
   "license": "MIT",
   "author": "KyungYeol Kim <chitacan@gmail.com>",
   "scripts": {
-    "deploy": "now && now alias"
-  },
-  "now": {
-    "type": "static",
-    "alias": "observable.chitacan.io",
-    "static": {
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ],
-      "redirects": [
-        {
-          "source": "**",
-          "destination": "https://observablehq.com/@chitacan"
-        }
-      ]
-    }
+    "deploy": "now && now --target production"
   }
 }

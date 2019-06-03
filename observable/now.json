@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "type": "static",
+  "alias": "observable.chitacan.io",
+  "static": {
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "**",
+        "destination": "https://observablehq.com/@chitacan"
+      }
+    ]
+  }
+}
