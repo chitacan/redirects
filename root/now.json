@@ -1,19 +1,10 @@
 {
-  "version": 1,
-  "type": "static",
+  "version": 2,
   "alias": "chitacan.io",
-  "static": {
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ],
-    "redirects": [
-      {
-        "source": "**",
-        "destination": "https://github.com/chitacan"
-      }
-    ]
-  }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://github.com/chitacan"
+    }
+  ]
 }

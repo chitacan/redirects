@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "KyungYeol Kim <chitacan@gmail.com>",
   "scripts": {
-    "deploy": "now && now --target production"
+    "build": "rm -rf public && mkdir public && echo hello >> public/dump",
+    "deploy": "now --prod"
   }
 }
