@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "alias": "blog.chitacan.io",
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://observablehq.com/collection/@chitacan/blog"
+    }
+  ]
+}
