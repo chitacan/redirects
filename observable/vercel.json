@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "alias": "observable.chitacan.io",
   "redirects": [
     {
       "source": "/(.*)",

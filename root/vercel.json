@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "alias": "chitacan.io",
   "redirects": [
     {
       "source": "/(.*)",

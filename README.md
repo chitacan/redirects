@@ -10,4 +10,4 @@
 
 ## deploy
 
-execute `yarn deploy` on each dir.
+execute `npm run deploy` on each dir.
