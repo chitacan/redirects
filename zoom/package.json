@@ -1,0 +1,11 @@
+{
+  "name": "zoom",
+  "description": "zoom.chitacan.io => us05web.zoom.us/j/8935240452",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "KyungYeol Kim <chitacan@gmail.com>",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
