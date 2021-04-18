@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "KyungYeol Kim <chitacan@gmail.com>",
   "scripts": {
-    "dev": "vercel dev",
+    "develop": "vercel dev",
     "deploy": "vercel --prod"
   }
 }
